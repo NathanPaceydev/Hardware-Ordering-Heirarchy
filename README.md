@@ -1,18 +1,9 @@
 # Hardware-Ordering-Heirarchy
 Example of inheritance and object oriented design by building a ordering system for a hardware store like home depot that would organize a few different types of fasteners.
 
-Although this was not asked for I wanted a separate file to explain the hierarchy of the Fasteners
- Below is a visual of the order
- 												     	[Fasteners]
-                            /            \
- 													/		             \
- 										[Has_Threads]		      	[Nails]
- 									   /			    \				           \
- 						[Male_Threaded]		[Female_Threaded]		[Common_Nail]
- 					  /	         \					|					
- 					[Bolts]		[Screws]		[Wing_Nut]			
- 						|		           	\
- 			[Carriage_Bolt]		[Wood_Screw]
+ Although this was not asked for I wanted a separate file to explain the hierarchy of the Fasteners. Below is a visual of the order
+ 											![image](https://user-images.githubusercontent.com/64051575/135859692-f5826f3b-ce66-400d-85dc-dc7619db1f38.png)
+
  			
  	Essentially the hierarchy was built to organize the types of hardware in a store. 
  	Although I could have made the hierarchy pretty shallow, I decided to vertically integrate like properties where possible,
