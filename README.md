@@ -4,7 +4,7 @@ Example of inheritance and object oriented design by building a ordering system 
  Although this was not asked for I wanted a separate file to explain the hierarchy of the Fasteners. Below is a visual of the order
  
  
- 											![image](https://user-images.githubusercontent.com/64051575/135859692-f5826f3b-ce66-400d-85dc-dc7619db1f38.png)
+ ![image](https://user-images.githubusercontent.com/64051575/135859692-f5826f3b-ce66-400d-85dc-dc7619db1f38.png)
 
  			
  	Essentially the hierarchy was built to organize the types of hardware in a store. 
